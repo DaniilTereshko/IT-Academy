@@ -10,7 +10,7 @@ public class C3 {
         if(sec == 0)        System.out.println("Рабочий день закончился.");
         else
         {
-            int hours = sec/3600;
+            int hours = sec/3600; 
             switch (hours) {
                 case 0       -> System.out.println("Осталось менее часа.");
                 case 1       -> System.out.println("Остался 1 час.");
