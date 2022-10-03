@@ -9,7 +9,7 @@ public class C2 {
         byte day   = scanner.nextByte();
         if((day > 31) || (day <= 0))
         {
-            System.out.println("Ошибка. Некорректный ввод.");
+            System.out.println("Ошибка. Некорректный ввод."); 
             System. exit(0);
         }
         byte month = scanner.nextByte();
