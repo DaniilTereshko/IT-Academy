@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class C11 {
-    public static final String FILENAME = "C:\\Users\\danii\\IdeaProjects\\IT-Academy\\src\\credit\\C11\\C11.txt";
+    public static final String FILENAME = "src\\credit\\C11\\C11.txt";
     public static void main(String[] args) {
         ArrayList<String> words = new ArrayList<>();
         int marks = 0;
