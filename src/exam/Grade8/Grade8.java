@@ -5,9 +5,9 @@ import java.util.*;
 
 public class Grade8 {
     static final int NUMBERS = 1000;
-    static final String IN1 = "src\\exam\\Grade8\\in1.txt";
-    static final String IN2 = "src\\exam\\Grade8\\in2.txt";
-    static final String OUT = "src\\exam\\Grade8\\out.txt";
+    static final String IN1 = "src/exam/Grade8/in1.txt";
+    static final String IN2 = "src/exam/Grade8/in2.txt";
+    static final String OUT = "src/exam/Grade8/out.txt";
 
     public static void main(String[] args) {
         try(var bw1 = new BufferedWriter(new FileWriter(IN1));

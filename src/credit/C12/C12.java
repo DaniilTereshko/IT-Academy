@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Random;
 
 public class C12 {
-    static final String FILENAME = "src\\credit\\C12\\C12.bin";
+    static final String FILENAME = "src/credit/C12/C12.bin";
     static final int N_OF_NUMBERS = 30;
     public static void main(String[] args) {
         float sum = 0F;
