@@ -26,12 +26,13 @@ public class Grade8 {
         try(var scanner1 = new Scanner(new FileReader(IN1));
             var scanner2 = new Scanner(new FileReader(IN2));
             var bw = new BufferedWriter(new FileWriter(OUT))){
-            SortedSet<Integer> numbers = new TreeSet<>();
+            ArrayList<Integer> numbers = new ArrayList<>();
             while(scanner1.hasNext() && scanner2.hasNext()){
                 numbers.add(scanner1.nextInt());
                 numbers.add(scanner2.nextInt());
             }
             bw.write(numbers.toString());
+            System.out.println(numbers.size());
             System.out.println(numbers);
         }
         catch (IOException ex){
