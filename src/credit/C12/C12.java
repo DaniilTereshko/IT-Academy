@@ -15,7 +15,6 @@ public class C12 {
                 dos.writeInt(number);
             }
             int number;
-            //Scanner scanner = new Scanner(bis);
             while(dis.available() > 0){
                 number = dis.readInt();
                 sum+= number;

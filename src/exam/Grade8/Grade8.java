@@ -31,6 +31,7 @@ public class Grade8 {
                 numbers.add(scanner1.nextInt());
                 numbers.add(scanner2.nextInt());
             }
+            Collections.sort(numbers);
             bw.write(numbers.toString());
             System.out.println(numbers.size());
             System.out.println(numbers);
