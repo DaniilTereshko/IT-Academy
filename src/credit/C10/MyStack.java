@@ -22,7 +22,7 @@ public class MyStack {
         if(isEmpty()){
             maxStackArray[++maxIndex] = item;
         }
-        else if(item > readTop()){
+        else if(item >= readTop()){
             maxStackArray[++maxIndex] = item;
         }
         stackArray[++topIndex] = item;
