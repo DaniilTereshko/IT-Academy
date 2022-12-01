@@ -23,7 +23,7 @@ public class Main {
         points.stream().filter(p -> distance(p) > 5)
                 .forEach(System.out::print);
         System.out.println();
-        points.stream().sorted(Comparator.comparingDouble(Main::distance))
+        points.stream().sorted(Comparator.comparingDouble(Main::distance).reversed())
                 .forEach(p-> System.out.print(p + " "));
     }
     public static double distance(Point p){
